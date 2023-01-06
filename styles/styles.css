@@ -93,10 +93,53 @@ line-height: 47px;
     margin-right: 322px;
 }
 
-.sec-1-ul-list{
-  list-style:square
+.sec1-list{
+    height: 26px;
 }
 
-li{
-    list-style:
+.fa-check{
+    color: red;
+}
+
+/* section 2 designing */
+.section-2{
+    margin-top: 156px;
+}
+
+.sec-2-title{
+     height: 47px;
+     width: 179px;
+     font-size: 40px;
+     font-weight: 700;
+     color: #151414;
+     line-height: 47px;
+     /* text-align: center; */
+     margin-left:auto;
+     margin-right: auto; 
+}
+
+.sec-2-container{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 30px;
+    width: 1141px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-2-sub-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.sec-2-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+.sec-2-element img{
+    position:relative;
+    display: inline-block;
 }

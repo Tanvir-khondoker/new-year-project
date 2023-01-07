@@ -187,6 +187,7 @@ line-height: 47px;
     margin-top: 7;
 }
 
+/* Footer designing code */
 .footer-container{
     margin-top: 130px;
     border-radius: 5px;
@@ -213,7 +214,55 @@ line-height: 47px;
 }
 
 .footer-left-description{
+    margin-top: 16px;
     width: 485px;
     height: 78px;
     line-height: 26px;
+}
+
+.footer-left-address{
+    line-height: 250%;
+}
+
+.footer-left-image{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-right{
+    margin:130px 229px 243px 1046px ;
+}
+
+.footer-right-title{
+    width: 123px;
+    height: 29px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.contact-email{
+width: 325px;
+height: 144px;
+
+}
+
+.footer-right-input{
+    height: 64px;
+    width: 325px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #151414;
+    color:#cccccc;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right-btn{
+    width: 170px;
+    height: 64px;
+    border-radius: 8px;
+    color: red;
+    font-size: 16px;
 }

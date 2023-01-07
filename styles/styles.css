@@ -27,7 +27,8 @@
     height: 228px;
     margin-top: 0px;
     /* margin-left: 1200px; */
-    margin-right: 550px;
+    margin-right: 46%;
+    margin-left: 54%;
     padding-top: 200px;
     font-size: 65px;
     font-weight: 700;
@@ -44,7 +45,8 @@
     color: #444343;
     text-align: right;
     /* margin-left: 1250px; */
-    margin-right: 550px;
+    margin-right: 46%;
+    margin-left: 54%;
     margin-top: 0;
 }
 
@@ -54,8 +56,10 @@
     font-style: semibold;
     height: 64px;
     background-color: darkorange;
-    margin-right: 550px;
+    
     border-radius: 5px;
+    margin-right: 30%;
+    margin-left: 60%;
 }
 
 /* section-1-style */

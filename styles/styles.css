@@ -210,6 +210,7 @@
     margin-top: 131px;
     margin-bottom: 129px;
     margin-left: 230px;
+    margin-right: 1px;
 }
 
 .footer-left-title {
@@ -238,7 +239,7 @@
 }
 
 .footer-right {
-    margin: 130px 229px 243px 1046px;
+    margin: 130px 229px 243px 331px;
 }
 
 .footer-right-title {

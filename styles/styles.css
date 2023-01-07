@@ -1,12 +1,13 @@
-
-*{
+* {
     font-family: sans-serif;
 }
-.banner{
+
+/* Banner Section Designing */
+.banner {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-color: #cccccc;
-    height:808px;
+    height: 808px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -14,14 +15,14 @@
     /* margin-bottom: 306px; */
 }
 
-.banner-content{
-    text-align:right;
+.banner-content {
+    text-align: right;
     /* margin: 216px 230px 364px 845px; */
-    
+
     color: black
 }
 
-.banner-title{
+.banner-title {
     width: 525px;
     height: 228px;
     margin-top: 0px;
@@ -32,59 +33,60 @@
     text-align: right;
     color: #151414;
     margin-bottom: 24px;
-   
+
 }
 
-.banner-description{
-  height: 78px;
-  width: 494px;
-  font-size: 16px;
-  color: #444343;
-  text-align: right;
-  margin-left: 1630px;
-  margin-top: 0;
+.banner-description {
+    height: 78px;
+    width: 494px;
+    font-size: 16px;
+    color: #444343;
+    text-align: right;
+    margin-left: 1630px;
+    margin-top: 0;
 }
 
-.banner-btn{
+.banner-btn {
     color: #ffff;
     font-size: 20px;
-    font-style:semibold;
+    font-style: semibold;
     height: 64px;
     background-color: darkorange;
     margin-right: 300px;
     border-radius: 5px;
 }
 
- /* section-1-style */
-.sec-1{
+/* section-1-style */
+.sec-1 {
     align-items: center;
     margin-top: 131px;
     display: flex;
     justify-content: space-between;
+    gap: 35px;
 }
 
-.sec-1-img{
-    margin-left: 206px;
+.sec-1-img {
+    margin-left: 306px;
     width: 569px;
     height: 723.3px;
 }
 
-.sec-1-content{
-    margin-left: 87px;
+.sec-1-content {
+    margin-left: 20px;
 }
 
-.sec-1-title{
-height: 94px;
-width: 288px;
-border-radius: null;
-font-size: 40px;
-font-weight: 700;
-color: #151414;
-line-height: 47px;
+.sec-1-title {
+    height: 94px;
+    width: 288px;
+    border-radius: null;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    line-height: 47px;
 }
 
-.sec-1-description{
-    color:#444343;
+.sec-1-description {
+    color: #444343;
     width: 416px;
     height: 104px;
     font-size: 16px;
@@ -93,102 +95,102 @@ line-height: 47px;
     margin-right: 322px;
 }
 
-.sec1-list{
+.sec1-list {
     height: 26px;
 }
 
-.fa-check{
+.fa-check {
     color: red;
 }
 
 /* section 2 designing */
-.section-2{
+.section-2 {
     margin-top: 156px;
 }
 
-.sec-2-title{
-     height: 47px;
-     width: 179px;
-     font-size: 40px;
-     font-weight: 700;
-     color: #151414;
-     line-height: 47px;
-     /* text-align: center; */
-     margin-left:auto;
-     margin-right: auto; 
+.sec-2-title {
+    height: 47px;
+    width: 179px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    line-height: 47px;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.sec-2-container{
+.sec-2-container {
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
     gap: 30px;
     width: 1141px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.sec-2-sub-title{
+.sec-2-sub-title {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
 }
 
-.sec-2-description{
+.sec-2-description {
     font-size: 25px;
     font-weight: 500;
     color: #737272;
 }
 
-.sec-2-element img{
-    position:relative;
+.sec-2-element img {
+    position: relative;
     display: inline-block;
 }
 
 /* section 3 styling */
-.section-3{
+.section-3 {
     margin-top: 105px;
     margin-left: auto;
     margin-right: auto;
-    background-image:linear-gradient(to right,rgba(117, 19, 93, 0.73),  rgba(245, 246, 252, 0.52)), url(../images/watch.png)  ;
+    background-image: linear-gradient(to right, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)), url(../images/watch.png);
 
 
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     border-radius: 8px;
-    
+
 }
 
-.sec-3-container{
+.sec-3-container {
     width: 459px;
     height: 182px;
-    padding:59px 617px 60px 64px ;
+    padding: 59px 617px 60px 64px;
 }
 
-.sec-3-title{
+.sec-3-title {
     width: 459px;
     height: 94px;
-    
+
     font-size: 40px;
     font-weight: 700px;
-    color:#ffff ;
-    text-align:top;
+    color: #ffff;
+    text-align: top;
     margin-top: 10px;
 }
 
-.sec-3-btn{
+.sec-3-btn {
     height: 64px;
     width: 160px;
     border-radius: 5px;
     background-color: white;
     color: violet;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     margin-top: 7;
 }
 
 /* Footer designing code */
-.footer-container{
+.footer-container {
     margin-top: 130px;
     border-radius: 5px;
     display: flex;
@@ -198,13 +200,13 @@ line-height: 47px;
     color: white;
 }
 
-.footer-left{
+.footer-left {
     margin-top: 131px;
     margin-bottom: 129px;
     margin-left: 230px;
 }
 
-.footer-left-title{
+.footer-left-title {
     /* position: top-left; */
     width: 148px;
     height: 53px;
@@ -213,27 +215,27 @@ line-height: 47px;
     vertical-align: top;
 }
 
-.footer-left-description{
+.footer-left-description {
     margin-top: 16px;
     width: 485px;
     height: 78px;
     line-height: 26px;
 }
 
-.footer-left-address{
+.footer-left-address {
     line-height: 250%;
 }
 
-.footer-left-image{
+.footer-left-image {
     display: flex;
     gap: 10px;
 }
 
-.footer-right{
-    margin:130px 229px 243px 1046px ;
+.footer-right {
+    margin: 130px 229px 243px 1046px;
 }
 
-.footer-right-title{
+.footer-right-title {
     width: 123px;
     height: 29px;
     font-size: 25px;
@@ -241,28 +243,64 @@ line-height: 47px;
     line-height: 29px;
 }
 
-.contact-email{
-width: 325px;
-height: 144px;
+.contact-email {
+    width: 325px;
+    height: 144px;
 
 }
 
-.footer-right-input{
+.footer-right-input {
     height: 64px;
     width: 325px;
     border: 2px solid white;
     border-radius: 8px;
     background-color: #151414;
-    color:#cccccc;
+    color: #cccccc;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.footer-right-btn{
+.footer-right-btn {
     width: 170px;
     height: 64px;
     border-radius: 8px;
     color: red;
     font-size: 16px;
+}
+
+/* Extra section designing */
+.degree-container {
+    display: flex;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.college-icon {
+    width: 25px;
+    padding: 25px;
+}
+
+.college-pic {
+    width: 100px;
+    height: 80px;
+}
+
+.degree-class {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-next-dream-degree {
+    margin-top: 250px;
+}
+
+.degree-title {
+    text-align: center;
+    font-size: 70px;
+}
+
+button:hover {
+    color: aqua;
+    border: 3px solid mediumblue;
 }

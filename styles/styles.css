@@ -143,3 +143,77 @@ line-height: 47px;
     position:relative;
     display: inline-block;
 }
+
+/* section 3 styling */
+.section-3{
+    margin-top: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(to right,rgba(117, 19, 93, 0.73),  rgba(245, 246, 252, 0.52)), url(../images/watch.png)  ;
+
+
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    
+}
+
+.sec-3-container{
+    width: 459px;
+    height: 182px;
+    padding:59px 617px 60px 64px ;
+}
+
+.sec-3-title{
+    width: 459px;
+    height: 94px;
+    
+    font-size: 40px;
+    font-weight: 700px;
+    color:#ffff ;
+    text-align:top;
+    margin-top: 10px;
+}
+
+.sec-3-btn{
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: white;
+    color: violet;
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 7;
+}
+
+.footer-container{
+    margin-top: 130px;
+    border-radius: 5px;
+    display: flex;
+    height: 577px;
+    background-size: cover;
+    background-color: #151414;
+    color: white;
+}
+
+.footer-left{
+    margin-top: 131px;
+    margin-bottom: 129px;
+    margin-left: 230px;
+}
+
+.footer-left-title{
+    /* position: top-left; */
+    width: 148px;
+    height: 53px;
+    font-size: 45px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.footer-left-description{
+    width: 485px;
+    height: 78px;
+    line-height: 26px;
+}

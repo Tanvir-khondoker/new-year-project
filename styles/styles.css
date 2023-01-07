@@ -26,7 +26,7 @@
     width: 525px;
     height: 228px;
     margin-top: 0px;
-    margin-left: 1600px;
+    margin-left: 1200px;
     padding-top: 200px;
     font-size: 65px;
     font-weight: 700;
@@ -42,7 +42,8 @@
     font-size: 16px;
     color: #444343;
     text-align: right;
-    margin-left: 1630px;
+    /* margin-left: 1250px; */
+    margin-left: 1250px;
     margin-top: 0;
 }
 
@@ -52,7 +53,7 @@
     font-style: semibold;
     height: 64px;
     background-color: darkorange;
-    margin-right: 300px;
+    margin-right: 650px;
     border-radius: 5px;
 }
 
